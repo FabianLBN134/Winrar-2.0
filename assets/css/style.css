@@ -1,0 +1,56 @@
+.fondo{
+    /*background-image: url("../img/eight_horns.png") !important;
+    background-repeat: repeat;
+    background-size: 50px; */
+    background-color: white;
+}
+/* Header*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #F5F1E3;
+}
+.logo{
+    width: auto;
+    height: 100px;
+}
+
+.menu-right{
+    margin: 20px auto;
+}
+.tamaño{
+    height: 1000px;
+}
+/*.fondoInfo{
+    background-color: white;
+    border-top: 2px;
+    border-radius: 5px;
+    height: 100px;
+}*/
+.active{
+    background-color:white !important;
+}
+/* BODY */
+
+.nav-body{
+    margin: 20px;
+}
+.info-1{
+    background-color:#F5F1E3 ;
+    height: auto;
+}
+.info-1 > h1{
+    padding: 60px 0 30px 30px;
+}
+.info-1 > p{
+    padding: 30px 30px 60px 30px;
+}
+.img-info-1{
+    background-image: url("../img/Fondo-icono.jpeg");
+    padding: auto;
+    display: block;
+}
+.img-info-1 > img{
+    width: 80px;
+    height: auto;
+}
