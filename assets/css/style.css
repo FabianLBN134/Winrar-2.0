@@ -47,10 +47,12 @@ header{
 }
 .img-info-1{
     background-image: url("../img/Fondo-icono.jpeg");
-    padding: auto;
-    display: block;
+    text-align: center;
 }
 .img-info-1 > img{
     width: 80px;
     height: auto;
+}
+.cards{
+    /*margin: 50px auto 50px 0;*/
 }
