@@ -1,0 +1,14 @@
+@media (max-width: 576px){
+    .header-contactos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo > a > img{
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+
+}

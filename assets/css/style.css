@@ -1,58 +1,67 @@
-.fondo{
+@import "style-xsm.css";
+
+
+.fondo {
     /*background-image: url("../img/eight_horns.png") !important;
     background-repeat: repeat;
     background-size: 50px; */
     background-color: white;
 }
+
 /* Header*/
-header{
+header {
     width: 100%;
-    height: 100px;
+    /*height: 100px;*/
     background-color: #F5F1E3;
 }
-.logo{
+
+.logo {
     width: auto;
     height: 100px;
 }
 
-.menu-right{
+.menu-right {
     margin: 20px auto;
 }
-.tamaño{
-    height: 1000px;
-}
+
 /*.fondoInfo{
     background-color: white;
     border-top: 2px;
     border-radius: 5px;
     height: 100px;
 }*/
-.active{
-    background-color:white !important;
+.active {
+    background-color: white !important;
 }
+
 /* BODY */
 
-.nav-body{
-    margin: 20px;
-}
-.info-1{
-    background-color:#F5F1E3 ;
+.info-1 {
+    background-color: #F5F1E3;
     height: auto;
 }
-.info-1 > h1{
+
+.info-1 > h1 {
     padding: 60px 0 30px 30px;
 }
-.info-1 > p{
+
+.info-1 > p {
     padding: 30px 30px 60px 30px;
 }
-.img-info-1{
+
+.img-info-1 {
     background-image: url("../img/Fondo-icono.jpeg");
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.img-info-1 > img{
+
+.img-info-1 > img {
     width: 80px;
-    height: auto;
+    height: 80px;
 }
-.cards{
-    /*margin: 50px auto 50px 0;*/
+
+.cards-top {
+    /*margin: 50px auto 50px 0;
+    margin:auto;*/
 }
