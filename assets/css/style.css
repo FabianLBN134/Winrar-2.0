@@ -23,7 +23,7 @@ header {
 }
 
 .header-contactos {
-    margin: auto 0px;
+    margin: auto 0;
     text-decoration: none;
 }
 
@@ -70,20 +70,77 @@ header {
         height: auto;
     }
 }
-
-@media (min-width: 769px) and (max-width: 992px) {
-    /*  */
-
+@media (min-width: 0px) and (max-width: 768px){
+    .img-info-1{
+        height: 200px;
+    }
+}
+@media (min-width: 0px) and (max-width: 992px) {
+    /* Descargas */
+    .btn{
+        width: auto;
+    }
 }
 
-/* BODY */
+                        /* BODY */
+
+.cartass {
+    margin-top: 20px;
+}
+
+.cartas {
+    height: auto;
+    justify-content: space-around;
+}
+
+.carta {
+    margin: 15px 0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--color-principal);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.card-title {
+    padding: 10px 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+/* Formulario */
+.formulario{
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* Compras */
+.caracteristicasCompras{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.oferta:hover{
+    background-color: white;
+}
+.oferta{
+    height: 250px;
+    width: 250px;
+}
+.oferta > a{
+    text-decoration: none;
+    color: black;
+}
+/* Descargas */
 .ultimasDescargas > div{
     display: flex;
 }
 .ultimasDescargas > div > img{
     width: 25px;
     height: 25px;
+    margin-right: 15px;
 }
+/* Index */
 .info-1 {
     background-color: var(--color-principal);
     height: auto;
@@ -105,7 +162,7 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 0 10px 10px 0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .img-info-1 > img {
@@ -118,33 +175,8 @@ header {
     height: 100px;
 }
 
-.cartass {
-    margin-top: 20px;
-}
-
-.cartas {
-    height: auto;
-    justify-content: space-around;
-}
-
-.carta {
-    margin: 15px 0;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: var(--color-principal);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.card-title {
-    padding: 10px 0;
-}
-
-.card-body {
-    padding: 10px;
-}
-
 /* FOOTER */
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
